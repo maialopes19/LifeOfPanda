@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Aref+Ruqaa|Slabo+27px');
+
+body{
+  min-width: 110em;
+}
+.top-header{
+  height: 170px;
+  margin: 0;
+  position: relative;
+  background-color: #333;
+}
+
+.title-heading{
+  margin-right: 60px!important;
+  text-align: right;
+  color: white;
+  margin: 0;
+  padding: 40px 0;
+
+}
+
+h1, h2{
+  font-family: 'Slabo 27px', serif;
+  font-size: 64px;
+  float: right;
+  clear: right;
+}
+
+h2{
+  float: left;
+  font-size: 32px;
+  color: black;
+}
+/*Styling divisions*/
+.body-div{
+  height: 100%;
+}
+
+.about-img-div{
+  position: relative;
+  top: -250px;
+  right: 200px;
+}
+
+/*Paragraphs styling*/
+.paragraph-div{
+  width: 50%;
+}
+
+p, #species_id li {
+  clear: both;
+  line-height: 32px;
+  text-indent: 0;
+  text-align: justify;
+  margin: 0;
+  font-family: 'Slabo 27px', serif;
+}
+.facts{
+  padding-top: 30;
+}
+/*Navigation Bar styling*/
+#navigation_bar{
+   width: 100%;
+   float: right;
+   margin: 0 0 1em 0;
+   padding: 0;
+   background-color:#333;
+   border-bottom: 1px solid #ccc;
+}
+
+#navigation_bar ul{
+  list-style: none;
+  width: 365px;
+  margin: 10px auto;
+  padding: 0;
+  float: right;
+}
+#nav_bar li a{
+  float: left;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+#navigation_bar a{
+  display: block;
+  padding: 8px 15px;
+  text-decoration: none;
+  font-family: 'Aref Ruqaa', serif;
+  font-size: 18px;
+  color: white;
+  border-left: 1px solid #ccc;
+}
+
+#navigation_bar li:first-child a{
+  border-right: 1px solid #ccc;
+}
+
+#navigation_bar a:hover{
+  color: #555;
+	background-color: #fff;
+}
+
+#navigation_bar li a.active{
+  background-color: white;
+}
+/*Image styling*/
+.Panda_onLeafs{
+  border-radius: 100%;
+  width: 500px;
+  height: 350px;
+  float: right;
+  box-shadow: 8px 8px 10px #aaa;
+  padding: 5px;
+  opacity: 0.8;
+}
+ .panda-resting, .baby-panda-resting, .panda-couple,
+ .bw-panda, .red-panda{
+    border-radius: 50%;
+    width: 500px;
+    height: 200px;
+    float: right;
+    box-shadow: 8px 8px 10px #aaa;
+    padding: 5px;
+    opacity: 0.8;
+}
+.panda-resting{
+  	position: relative;
+  	top: -124px;
+  	right: 200px;
+}
+.baby-panda-resting{
+  	position: relative;
+  	top: -293px;
+  	right: -21px;
+}
+.panda-couple, .bw-panda{
+	position: relative;
+  	top: -470px;
+  	right: -800px;
+}
+.red-panda{
+  	position: relative;
+  	top: -235px;
+  	right: -331px;
+}
+
+.bw-panda{
+  	position: relative;
+  	top: -408px;
+  	right: 495px;
+}
