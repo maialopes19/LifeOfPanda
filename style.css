@@ -97,11 +97,12 @@ p, #species_id li {
 
 #navigation_bar a:hover{
   color: #555;
-	background-color: #fff;
+  background-color: #fff;
 }
 
-#navigation_bar li a.active{
+#navigation_bar a.active{
   background-color: white;
+  color: darkslateblue	 
 }
 /*Image styling*/
 .Panda_onLeafs{

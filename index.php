@@ -3,6 +3,8 @@
     <meta charset="utf-8">
     <title>Panda</title>
     <link rel="stylesheet" type = "text/css" href="style.css">
+	<script src = "jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src = "Scripts\jsFunctions.js"></script>
   </head>
   <body>
     <div class="top-header">
